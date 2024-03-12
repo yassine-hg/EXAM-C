@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    double Ay , Ax , Bx ,By , D;
+
+    printf("Enter Ax : ");
+    scanf("%lf" , &Ax);
+
+    printf("Enter Ay : ");
+    scanf("%lf" ,&Ay);
+
+    printf("Enter Bx : ");
+    scanf("%lf" , &Bx);
+
+    printf("Enter By : ");
+    scanf("%lf" , &By);
+
+    D = sqrt(pow(Bx - Ax, 2)+(pow(By - Ay, 2)));
+
+    printf("La distance enter A est B est %.2lf \n" , D);
+
+
+
+
+
+
+
+
+return 0;
+}
