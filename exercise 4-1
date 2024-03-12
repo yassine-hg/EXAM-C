@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int a , b , c , max ;
+
+    printf("enter la valeur de A : ");
+    scanf("%d" , &a);
+
+    printf("enter la valeur de B : ");
+    scanf("%d" , &b);
+
+    printf("enter la valeur de C : ");
+    scanf("%d" , &c);
+
+    if (a > b && a > c){
+        printf("le max est %d", a);
+    }
+    else if (b > a && b > c){
+        printf("le max est %d" , b);
+    }
+    else if (c > a && c > b){
+        printf("le max est %d" , c);
+    }
+
+
+
+
+
+
+return 0;
+}
