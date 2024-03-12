@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int A = 20 , B = 5 , C = -10 , R ,I;
+
+    printf("la valeur de c est de a %d \n" , C);
+    R = A;
+    printf("la valeur de b est de a %d \n" , R);
+    I = B;
+    printf("La valeur de c est de b %d \n" , I);
+
+
+
+
+
+
+
+return 0;
+}
