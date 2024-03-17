@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int a , b , c , max ;
+
+    printf("enter la valeur de A : ");
+    scanf("%d" , &a);
+
+    printf("enter la valeur de B : ");
+    scanf("%d" , &b);
+
+    printf("enter la valeur de C : ");
+    scanf("%d" , &c);
+
+    max = (a > b ) ? (a > c ? a : c) : (b > c ? b : c);
+    printf("the maximum is %d" , max);
+
+
+
+
+
+
+return 0;
+}
