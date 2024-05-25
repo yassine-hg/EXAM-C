@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+void carre_f(int t[], int n){
+    int carr;
+    for(int i = 0; i < n; i++){
+        carr = t[i] * t[i];
+        printf("l'element du carre: %d\n",carr);
+    }
+}
+
+
+int main(){
+    int c[100];
+    int n;
+
+    printf("input the size of the list: ");
+    scanf("%d", &n);
+
+    for(int i = 0; i < n; i++){
+        printf("element %d: ",i);
+        scanf("%d", &c[i]);
+    }
+    carre_f(c,n);
+}
