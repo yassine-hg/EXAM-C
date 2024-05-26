@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void Carre(int n){
+    int carr;
+    carr = n*n;
+    printf("le carre de %d est: %d",n, carr);
+}
+
+int main(){
+    int o;
+
+    printf("le carre de l'element: ");
+    scanf("%d", &o);
+
+    Carre(o);
+
+    return 0;
+}
